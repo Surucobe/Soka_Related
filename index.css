@@ -16,5 +16,25 @@ body {
   justify-content: center;
   background-image: url("./images/pink_flowers.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position-y: 50%;
+}
+
+.symbol {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 65px;
+  color: gold;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .container h1 {
+    display: none;
+  }
 }
